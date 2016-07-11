@@ -1,0 +1,15 @@
+{
+    "name": "onpp/logger",
+    "description": "This is library for loged messages.",
+    "type": "library",
+    "require": {
+        "psr/log": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "ONPP\\Logger\\": "src/Logger/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "ONPP\\Logger\\": "tests/Logger/" }
+    }
+}
