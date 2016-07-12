@@ -15,6 +15,7 @@ class Logger extends AbstractLogger
     protected $filePath;
 
     /**
+     * Logger constructor.
      * @param $path
      */
     public function __construct($path)
