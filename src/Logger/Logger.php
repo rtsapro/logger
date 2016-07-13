@@ -10,13 +10,24 @@ use Psr\Log\AbstractLogger;
  */
 class Logger extends AbstractLogger
 {
+    /**
+     * @var string
+     */
     protected $cid;
+
+    /**
+     * @var string
+     */
     protected $format = "%s    %s    %s    %s";
+
+    /**
+     * @var string
+     */
     protected $filePath;
 
     /**
      * Logger constructor.
-     * @param $path
+     * @param string $path
      */
     public function __construct($path)
     {
