@@ -1,7 +1,6 @@
 {
     "name": "onpp/logger",
     "description": "This is library for loged messages.",
-    "version": "1.0.0",
     "type": "library",
     "require": {
         "psr/log": "^1.0"
