@@ -8,8 +8,5 @@
     "license": "MIT",
     "autoload": {
         "psr-4": { "ONPP\\Logger\\": "src/Logger/" }
-    },
-    "autoload-dev": {
-        "psr-4": { "ONPP\\Logger\\": "tests/Logger/" }
     }
 }
